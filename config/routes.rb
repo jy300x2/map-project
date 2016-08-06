@@ -1,4 +1,8 @@
 MapProject::Application.routes.draw do
+  root 'static_pages#index'
+  get 'static_pages/map'
+  get 'static_pages/components'
+  get 'static_pages/overlays'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
